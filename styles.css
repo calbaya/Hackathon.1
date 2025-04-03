@@ -1,0 +1,414 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#about {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.content {
+    width: calc(50% - 50px);
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Lucida Sans';
+}
+.about_text {
+    width: calc(50% + 50px);
+    height: 100%;
+    background-color: orange;
+    box-sizing: border-box;
+    border-left: 200px solid white;
+    border-bottom: 800px solid transparent;
+    text-align: center;
+    color: black;
+}
+#me {
+    color: black;
+}
+#me:hover {
+    cursor: pointer;
+    color: azure;
+}
+
+
+nav {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    padding: 20px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+}
+nav ul li a:hover {
+    cursor: pointer;
+    color: orange;
+}
+.text {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: lucida Handwriting;
+    letter-spacing: 5px;
+}
+.text span {
+    font-size: 50px;
+    color: transparent;
+    -webkit-text-stroke: 2px orange;
+}
+.text span:hover {
+    cursor: pointer;
+    color: orange;
+}
+p {
+    position: absolute;
+    top: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    font-size: 18px;
+}
+h2 {
+    position: absolute;
+    top: 30%;
+    margin-left: 250px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 26px;
+}
+h2:hover {
+    cursor: pointer;
+}
+main {
+    height: 200px;
+}
+
+#education {
+    position: relative;
+    margin-bottom: 500px;
+}
+.educ {
+    text-align: center;
+    margin-left: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    letter-spacing: 1px;
+}
+.educ:hover {
+    cursor: pointer;
+}
+.background {
+    margin-top: 80px;
+    margin-left: 400px;
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+}
+.cv-button {
+    padding: 12px 24px;
+    background-color: black;
+    color: orange;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: arial;
+    letter-spacing: 2px;
+}
+.cv-button:hover {
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
+#interests {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    font-family: arial;
+
+}
+.int:hover {
+    cursor: pointer;
+}
+.int {
+    margin-left: 700px;
+    top: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+#front {
+    background-color: lightseagreen;
+    height: 250px;
+    width: 250px;
+    margin-top: 150px;
+    margin-left: 50px;
+    padding: 15px;
+}
+#front:hover {
+    cursor: pointer;
+    box-shadow: 6px 6px 12px rgb(40, 235, 225);
+    border-radius: 0px 20px;
+}
+#front p {
+    top: 17%;
+    padding: 10px;
+    text-align: center;
+}
+#top {
+    font-weight: bold;
+}
+#business {
+    background-color: chocolate;
+    height: 250px;
+    width: 250px;
+    margin-top: 250px;
+    margin-left: 130px;
+    padding: 15px;
+}
+#business:hover {
+    cursor: pointer;
+    box-shadow: 6px 6px 12px rgb(226, 96, 2);
+    border-radius: 0px 20px;
+}
+#business p {
+    top: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#video {
+    background-color: gray;
+    height: 250px;
+    width: 250px;
+    margin-top: 150px;
+    margin-left: 120px;
+    padding: 15px;
+}
+#video:hover {
+    cursor: pointer;
+    box-shadow: 6px 6px 12px rgb(80, 61, 61);
+    border-radius: 0px 20px;
+}
+#video p {
+    top: 17%;
+    padding: 10px;
+    text-align: center;
+}
+#speak {
+    background-color: burlywood;
+    height: 230px;
+    width: 250px;
+    margin-top: 250px;
+    margin-left: 130px;
+    padding: 25px;
+}
+#speak:hover {
+    cursor: pointer;
+    box-shadow: 6px 6px 12px rgb(226, 151, 53);
+    border-radius: 0px 20px;
+}
+#speak p {
+    top: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#projects {
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.proj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+#projects h2 {
+    color: black;
+    text-align: center;
+    margin-left: 700px;
+    top: 1%;
+}
+#projects h2 {
+    cursor: pointer;
+}
+.timer {
+    height: 400px;
+    width: 600px;
+    margin-top: 130px;
+    background-color: blue;
+    margin-left: 500px;
+}
+.timer:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.timer img {
+    height: 400px;
+    width: 600px;
+}
+.intro {
+    color: black;
+}
+.intro p {
+    margin-top: 210px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 18px;
+    letter-spacing: 2px;
+    background-color: orange;
+    height: 70px;
+    width: 560px;
+    color: black;
+}
+.intro a {
+    text-decoration: none;
+    color: azure;
+}
+.intro a:hover {
+    cursor: pointer;
+    color: chocolate;
+}
+#contact {
+    position: relative;
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+}
+#contact h2 {
+    margin-left: 700px;
+    top: 2%;
+}
+#contact p {
+    margin-left: 600px;
+}
+#form {
+    height: 500px;
+    width: 50%;
+    background-color: azure;
+    margin-left: 400px;
+    padding: 40px;
+    position: relative;
+    display: flex;
+}
+#name {
+    height: 30px;
+    width: 732px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(221, 250, 250);
+}
+#email {
+    height: 30px;
+    width: 732px;
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(221, 250, 250);
+}
+#message {
+    padding: 10px;
+    margin: 20px;
+    height: 180px;
+    width: 732px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(221, 250, 250);
+}
+#submit {
+    margin-left: 320px;
+    margin-top: 50px;
+    padding: 12px 24px;
+    background-color: black;
+    color: orange;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: arial;
+    letter-spacing: 4px;
+}
+#submit:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+}
+#footer {
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: black;
+    color: orange;
+    position: relative;
+    font-family: arial;
+}
+#footer h3 {
+    text-align: center;
+}
+/* #footer a {
+    margin-left: 400px;
+    font-size: 30px;
+} */
+.insta {
+    font-size: 30px;
+    margin-left: 530px;
+    color: orange;
+}
+.insta:hover {
+    cursor: pointer;
+    color: aqua;
+}
+.twit {
+    font-size: 30px;
+    margin-left: 50px;
+    color: orange;
+}
+.twit:hover {
+    cursor: pointer;
+    color: aqua;
+}
+.phone {
+    margin-left: 500px;
+}
+.email {
+    color: orange;
+    text-decoration: none;
+}
+.email:hover {
+    color: aqua;
+    cursor: pointer;
+}
